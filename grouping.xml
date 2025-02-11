@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests">
+
+
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"/>
+        <listener class-name="org.testng.reporters.FailedReporter"/>
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="firefox-test">
+
+        <parameter name="os" value="windows"/>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testCases.TC_001_registeraccount"/>
+            <class name="testCases.TC_002_logintest"/>
+        </classes>
+    </test>
+
+</suite>
