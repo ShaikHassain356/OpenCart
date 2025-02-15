@@ -3,10 +3,9 @@ package testCases;
 import TestBase.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pageObjects.HomePage;
-import pageObjects.SearchPage;
-import pageObjects.SearchPageResult;
-import pageObjects.loginpage;
+import pageObjects.*;
+
+import java.util.Objects;
 
 public class TC_004_searchingproduct extends BaseTest {
 
@@ -36,11 +35,33 @@ public class TC_004_searchingproduct extends BaseTest {
          SearchPageResult spr=new SearchPageResult(driver);
          String result= spr.resultproduct();
          logger.info("validating the result");
+         System.out.println(result);
+         logger.debug("After printing the result");
 
-         if (result.equals("iPhone"))
+        if (Objects.equals(result, "iPhone"))
          {
-             System.out.println("Test Passed");
+             System.out.println("product is searched");
              System.out.println(result);
+             logger.info("adding to cart");
+             Thread.sleep(10000);
+             spr.clickaddtocart();
+             Thread.sleep(5000);
+             logger.info("validating the message after adding to cart");
+             boolean cartstatus= spr.addedtocart();
+             if (cartstatus)
+             {
+                 logger.info("clicking on shoppingcart");
+                 spr.clickshoppingcart();
+                 shoppingcartpage scp=new shoppingcartpage(driver);
+                 String price= scp.priceofunit();
+                 System.out.println("price of the product is "+price);
+
+
+             }
+             else{
+                 System.out.println("product not added to cart");
+             }
+
          }
 
          else {

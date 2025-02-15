@@ -1,38 +1,29 @@
-23:35:31.072 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-23:35:31.090 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-23:35:31.091 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-23:35:31.091 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-23:35:31.093 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-23:35:31.094 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-23:35:31.097 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-23:35:31.097 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-23:35:31.099 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-23:35:31.100 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-23:35:31.104 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-23:35:31.104 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-23:35:31.105 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-23:35:31.105 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-23:35:31.107 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-23:35:31.108 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-23:35:31.109 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-23:35:31.109 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-23:35:31.110 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-23:35:31.111 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-23:35:31.129 [main] INFO  org.testng.internal.Utils - [ThreadUtil] Starting executor timeOut:2147483647ms workers:1 threadPoolSize:5
-23:35:31.145 [TestNG-tests-1] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
-23:35:36.555 [TestNG-tests-1] INFO  testCases.TC_004_searchingproduct - Test Started
-23:35:36.580 [TestNG-tests-1] INFO  testCases.TC_004_searchingproduct - clicking on my account
-23:35:36.730 [TestNG-tests-1] INFO  testCases.TC_004_searchingproduct - clicking on login
-23:35:37.093 [TestNG-tests-1] INFO  testCases.TC_004_searchingproduct - Passing the emailid
-23:35:37.289 [TestNG-tests-1] INFO  testCases.TC_004_searchingproduct - Passing the password
-23:35:37.417 [TestNG-tests-1] INFO  testCases.TC_004_searchingproduct - cliking on loginbutton
-23:35:38.230 [TestNG-tests-1] INFO  testCases.TC_004_searchingproduct - fetching product name from properties file
-23:35:38.341 [TestNG-tests-1] INFO  testCases.TC_004_searchingproduct - clicking on search button
-23:35:43.780 [TestNG-tests-1] INFO  testCases.TC_004_searchingproduct - validating the result
-23:35:43.780 [TestNG-tests-1] INFO  testCases.TC_004_searchingproduct - Test Completed
-23:35:44.305 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@5a7005d: 83 ms
-23:35:44.307 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@5bc9ba1d: 0 ms
-23:35:44.318 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@686449f9: 11 ms
-23:35:44.325 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@25b2cfcb: 7 ms
-23:35:44.334 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@29df4d43: 9 ms
-23:35:44.335 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@5dd91bca: 1 ms
+13:42:33.321 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:42:33.337 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:42:33.337 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:42:33.339 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:42:33.340 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:42:33.341 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:42:33.344 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:42:33.345 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:42:33.347 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+13:42:33.353 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Hassain\IdeaProjects\OpenCart\master.xml
+
+13:42:33.361 [main] INFO  org.testng.internal.Utils - [ThreadUtil] Starting executor timeOut:2147483647ms workers:1 threadPoolSize:5
+13:42:33.375 [TestNG-tests-1] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+13:42:36.981 [TestNG-tests-1] INFO  testCases.TC_004_searchingproduct - Test Started
+13:42:37.011 [TestNG-tests-1] INFO  testCases.TC_004_searchingproduct - clicking on my account
+13:42:37.113 [TestNG-tests-1] INFO  testCases.TC_004_searchingproduct - clicking on login
+13:42:37.378 [TestNG-tests-1] INFO  testCases.TC_004_searchingproduct - Passing the emailid
+13:42:37.547 [TestNG-tests-1] INFO  testCases.TC_004_searchingproduct - Passing the password
+13:42:37.662 [TestNG-tests-1] INFO  testCases.TC_004_searchingproduct - cliking on loginbutton
+13:42:38.352 [TestNG-tests-1] INFO  testCases.TC_004_searchingproduct - fetching product name from properties file
+13:42:38.444 [TestNG-tests-1] INFO  testCases.TC_004_searchingproduct - clicking on search button
+13:42:43.822 [TestNG-tests-1] INFO  testCases.TC_004_searchingproduct - validating the result
+13:42:43.822 [TestNG-tests-1] DEBUG testCases.TC_004_searchingproduct - After printing the result
+13:42:43.822 [TestNG-tests-1] INFO  testCases.TC_004_searchingproduct - adding to cart
+13:42:59.073 [TestNG-tests-1] INFO  testCases.TC_004_searchingproduct - validating the message after adding to cart
+13:42:59.117 [TestNG-tests-1] INFO  testCases.TC_004_searchingproduct - clicking on shoppingcart
+13:42:59.629 [TestNG-tests-1] INFO  testCases.TC_004_searchingproduct - Test Completed
+13:42:59.959 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@58ebfd03: 0 ms
